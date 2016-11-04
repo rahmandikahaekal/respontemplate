@@ -1436,3 +1436,54 @@ img.mfp-img {
   transition: all 0.5s ease-in-out 0.1s;
   margin: 0 auto;
 }
+
+#clients img {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray;
+    -webkit-filter: grayscale(100%); 
+}
+
+#clients img:hover {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+
+/* NEWSLETTER */
+
+.section.newsletter {
+    padding: 100px 0;
+}
+
+.section.newsletter h3 {
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.section.newsletter input {
+    width: 50%;
+    text-align: center;
+}
+
+.section.newsletter .btn {
+    margin-top: 30px;
+}
+
+/* TESTIMONIALS */
+
+.section .testimonials {
+    padding: 100px 0;
+    margin: 0;
+    background: transparent;
+    text-align: center;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.section .testimonials h2, .section .testimonials p {
+    color: #FFF;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    margin-top: 20px;
+    background: #D6A15B;
+}
