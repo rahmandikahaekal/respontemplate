@@ -1470,28 +1470,28 @@ img.mfp-img {
 
 /* TESTIMONIALS */
 
-.section .testimonials {
-    padding: 100px 0;
-    margin: 0;
-    background: transparent;
-    text-align: center;
-    color: #FFF;
-    background-color: rgba(0, 0, 0, 0.7);
+.section.testimonials {
+  padding: 100px 0;
+  margin: 0;
+  background: transparent;
+  text-align: center;
+  color: #FFF;
+  background-color: rgba(0,0,0,0.7);
 }
 
-.section .testimonials h2, .section .testimonials p {
-    color: #FFF;
+.section.testimonials h2, .section.testimonials p {
+  color: #FFF;
 }
 
 .owl-theme .owl-controls .owl-page span {
-    margin-top: 20px;
-    background: #D6A15B;
+  margin-top: 20px;
+  background: #D6A15B;
 }
 
-#owl-testimonials .owl-theme .owl-controls .clickable {
-    display: none;
-    margin: 0;
-    height: 0;
+#owl-testimonials.owl-theme .owl-controls.clickable {
+  display: none;
+  margin: 0;
+  height: 0;
 }
 
 /* CONTACT */
@@ -1524,29 +1524,135 @@ img.mfp-img {
 
 /* SOCIAL */
 
-.section .social {
-    padding: 0;
+.section.social {
+  padding: 0;
 }
 
-.section .social i {
-    color: #fff;
+.section.social i {
+  color: #fff;
 }
 
-.section .social i:hover {
-    -webkit-transform: scalce(1.5);
-    -moz-transform: scale(1.5);
-    -ms-transform: scale(1.5);
-    -o-transform: scale(1.5);
-    transform: scale(1.5);
+.section.social i:hover {
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
-.section .social .facebook {
-    color: #fff;
-    padding: 50px 0px;
-    background-color: #3b5998;
-    -webkit-transition: all 0.5s ease-in-out 0.1s;
-    -moz-transition: all 0.5s ease-in-out 0.1s;
-    -ms-transition: all 0.5s ease-in-out 0.1s;
-    -o-transition: all 0.5s ease-in-out 0.1s;
-    transition: all 0.5s ease-in-out 0.1s;
+.section.social .facebook {
+  color: #fff;
+  padding: 50px 0;
+  background-color: #3b5998;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  -moz-transition: all 0.5s ease-in-out 0.1s;;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.section.social .facebook:hover {
+  opacity: 0.7;
+}
+
+.section.social .google-plus {
+  padding: 50px 0;
+  background-color: #d73d32;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  -moz-transition: all 0.5s ease-in-out 0.1s;;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.section.social .google-plus:hover {
+  opacity: 0.7;
+}
+
+.section.social .linkedin {
+  padding: 50px 0;
+  background-color: #007bb5;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  -moz-transition: all 0.5s ease-in-out 0.1s;;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.section.social .linkedin:hover {
+  opacity: 0.7;
+}
+
+.section.social .github {
+  padding: 50px 0;
+  background-color: #3a3737;
+  -webkit-transition: all 0.5s ease-in-out 0.1s;
+  -moz-transition: all 0.5s ease-in-out 0.1s;;
+  transition: all 0.5s ease-in-out 0.1s;
+}
+
+.section.social .github:hover {
+  opacity: 0.7;
+}
+
+
+/* FOOTER */
+
+
+#footer {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+}
+
+#footer a {
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #fff;
+}
+
+#footer a:hover {
+	text-shadow: 0px 0px 5px #fff;
+}
+
+.back-to-top {
+  display: none;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  z-index: 9999;
+}
+
+.back-to-top a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  -moz-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.back-to-top a:hover {
+  color: #222;
+}
+
+.copyright {
+  font-size: 0.8em;
+  letter-spacing: 0.2em;
+  line-height: 36px;
+  padding-top: 10px;
 }
