@@ -1487,3 +1487,66 @@ img.mfp-img {
     margin-top: 20px;
     background: #D6A15B;
 }
+
+#owl-testimonials .owl-theme .owl-controls .clickable {
+    display: none;
+    margin: 0;
+    height: 0;
+}
+
+/* CONTACT */
+
+.contact-info li {
+    padding-bottom: 20px;
+}
+
+.contact-info h2 {
+    font-size: 16px !important;
+    letter-spacing: 0.2em;
+}
+
+.contact-info h2, .contact-info p {
+    padding-left: 0px;
+}
+
+.contact-info p {
+    font-size: 12px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 0;
+}
+
+.contact-form .alert,
+.contact-form label {
+    display: none;
+}
+
+/* SOCIAL */
+
+.section .social {
+    padding: 0;
+}
+
+.section .social i {
+    color: #fff;
+}
+
+.section .social i:hover {
+    -webkit-transform: scalce(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.section .social .facebook {
+    color: #fff;
+    padding: 50px 0px;
+    background-color: #3b5998;
+    -webkit-transition: all 0.5s ease-in-out 0.1s;
+    -moz-transition: all 0.5s ease-in-out 0.1s;
+    -ms-transition: all 0.5s ease-in-out 0.1s;
+    -o-transition: all 0.5s ease-in-out 0.1s;
+    transition: all 0.5s ease-in-out 0.1s;
+}
