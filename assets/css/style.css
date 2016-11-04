@@ -2116,7 +2116,7 @@ img.mfp-img {
     padding-right: 0;
   }
 
-  .section.social .facebook, .section.social .twitter, .section.social .google-plus, .section.social .linkedin {
+  .section.social .facebook, .section.social .github, .section.social .google-plus, .section.social .linkedin {
     padding: 40px 0;
   }
 }
@@ -2217,7 +2217,7 @@ img.mfp-img {
     width: 100%;
   }
 
-  .section.social .facebook, .section.social .twitter, .section.social .google-plus, .section.social .linkedin {
+  .section.social .facebook, .section.social .github, .section.social .google-plus, .section.social .linkedin {
     padding: 30px 0;
   }
 
