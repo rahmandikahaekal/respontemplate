@@ -2,10 +2,6 @@
 
 October - Responsive One Page HTML Template
 
-Author: RBWebDesign
-Date: October 2016
-Version: 1.0
-
 -----------------------
 | [Table of Contents] |
 -----------------------
@@ -552,7 +548,7 @@ a:hover, a:focus, a:active {
 }
 
 .section.dark {
-	background-color: #222;
+  background: url(../img/bg.jpg) no-repeat center top scroll;
   padding: 50px 0;
 }
 
